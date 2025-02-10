@@ -72,7 +72,7 @@ class LoginWindow(QWidget):
 
     def check_login(self):
         correct_username = "123"
-        correct_password = "123"
+        correct_password = ""
 
         username = self.input_username.text()
         password = self.input_password.text()
